@@ -184,8 +184,6 @@ const Location: Template<TemplateRenderProps> = ({
           </div>
         </div>
       </PageLayout>
-      {/* This component displays a link to the entity that represents the given page in the Knowledge Graph*/}
-      {!isProduction(siteDomain) && <EditTool data={document} />}
     </>
   );
 };
