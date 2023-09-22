@@ -66,6 +66,7 @@ export const config: TemplateConfig = {
       replaceOptionValuesWithDisplayNames: ["paymentOptions"],
     },
   },
+  alternateLanguageFields: ["description"],
 };
 
 /**
