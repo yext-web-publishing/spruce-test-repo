@@ -62,6 +62,7 @@ export const config: TemplateConfig = {
       locales: ["fr", "de", "es", "it", "ar"],
       primary: true,
     },
+    alternateLanguageFields: ["description"],
     transform: {
       replaceOptionValuesWithDisplayNames: ["paymentOptions"],
     },
