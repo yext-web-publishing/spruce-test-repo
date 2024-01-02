@@ -1,9 +1,13 @@
-export async function main() {
-    return {
-        statusCode: 200,
-        headers: {
-            "test-header": "test",
-        },
-        body: "test"
-    }
+import { SitesHttpRequest, SitesHttpResponse } from "@yext/pages/*";
+
+export default async function helloWorld(
+  request: SitesHttpRequest
+): Promise<SitesHttpResponse> {
+  const { pathParams, queryParams, site } = request;
+
+  return {
+    body: "Hello World",
+    headers: {},
+    statusCode: 200,
+  };
 }
