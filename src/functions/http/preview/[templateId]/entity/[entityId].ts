@@ -1,7 +1,7 @@
 import { SitesHttpRequest, SitesHttpResponse } from "@yext/pages/*";
 import fetch from 'node-fetch';
 
-export default async function helloWorld(
+export default async function generatePreview(
   request: SitesHttpRequest
 ): Promise<SitesHttpResponse> {
   const { pathParams, queryParams, site } = request;
