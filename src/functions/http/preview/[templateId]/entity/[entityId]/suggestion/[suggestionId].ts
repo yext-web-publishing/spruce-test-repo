@@ -6,10 +6,10 @@ export default async function generatePreview(
 ): Promise<SitesHttpResponse> {
   const { pathParams, queryParams, site } = request;
 
-  const { templateId, entityId } = pathParams
+  const { templateId, entityId, suggestionId } = pathParams
 
   // fetch entity data
-  const entityResponse = await fetch(`https://sbx-api.yextapis.com/v2/accounts/me/sites/${site.siteId}/fetchentitydocument?entityId=${entityId}&templateId=${templateId}&deploymentId=${site.deployId}&api_key=1180012a82bbd5acd01414744612c3df&v=20230601`);
+  const entityResponse = await fetch(`https://sbx-api.yextapis.com/v2/accounts/me/sites/${site.siteId}/fetchentitydocument?entityId=${entityId}&templateId=${templateId}&deploymentId=${site.deployId}&editIds=${suggestionId}&api_key=1180012a82bbd5acd01414744612c3df&v=20230601`);
   const entityJson = await entityResponse.json();
   const entityData = entityJson.response.document
 
