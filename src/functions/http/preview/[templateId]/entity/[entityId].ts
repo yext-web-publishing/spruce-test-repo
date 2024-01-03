@@ -19,12 +19,13 @@ export default async function generatePreview(
     {method: 'POST', body: JSON.stringify(entityData), headers: {'Content-Type': 'application/json'}});
   const generateJson = await generateResponse.json();
 
-  const html = generateJson.response.content
+  const html = generateJson.response.content as string
+  const htmlWithCorrectPath = html.replaceAll('../', '../../../')
 
   console.log("done")
 
   return {
-    body: html,
+    body: htmlWithCorrectPath,
     headers: {'Content-Type': 'text/html'},
     statusCode: 200,
   };
