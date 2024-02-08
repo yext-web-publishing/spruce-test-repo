@@ -33,6 +33,7 @@
     "buildCmd": "npm run build:local"
   },
   "livePreview": {
-    "serveSetupCmd": "npm run dev -- --no-prod-url --local"
+    "serveSetupCmd": "npm run dev -- --no-prod-url --local",
+    "serveCmd": "npm run serve"
   }
 }
