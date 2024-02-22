@@ -66,7 +66,7 @@ export const config: TemplateConfig = {
       replaceOptionValuesWithDisplayNames: ["paymentOptions"],
     },
   },
-  pageUrlField: "c_custom_url_writeback",
+  pageUrlField: "c_urlWriteback2",
 };
 
 /**
