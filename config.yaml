@@ -8,3 +8,10 @@ buildConfiguration:
       - .npmrc
 livePreviewConfiguration:
   setupCommand: npm run dev -- --no-prod-url --local
+
+responseHeaders:
+  -
+    pathPattern: .*
+    headerKey: aaron-custom-header
+    headerValues:
+      - custom-value    
