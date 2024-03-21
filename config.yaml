@@ -8,3 +8,8 @@ buildConfiguration:
       - .npmrc
 livePreviewConfiguration:
   setupCommand: npm run dev -- --no-prod-url --local
+dynamicRoutes:
+  -
+    from: /en/AL/*
+    to: /en/location11
+    status: 302
