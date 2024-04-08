@@ -125,7 +125,7 @@ export const config: TemplateConfig = {
     ],
     // Defines the scope of entities that qualify for this stream.
     filter: {
-      entityIds: [import.meta.env.YEXT_PUBLIC_ENTITY_ID],
+      entityIds: ["YEXT_PUBLIC_ENTITY_ID"],
       // entityTypes: ['location'],
     },
     // The entity language profiles that documents will be generated for.
