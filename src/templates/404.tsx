@@ -1,59 +1,37 @@
-import * as React from "react";
-import "../index.css";
+// src/template/404.tsx
 import {
-  Template,
-  GetPath,
-  GetHeadConfig,
-  HeadConfig,
-  TemplateConfig,
-  TemplateProps,
-  TemplateRenderProps,
-} from "@yext/pages";
-import Banner from "../components/Banner";
-import PageLayout from "../components/PageLayout";
-import Favicon from "../assets/images/yext-favicon.ico";
-
-export const config: TemplateConfig = {
-  name: "404",
-};
-
-export const getPath: GetPath<TemplateProps> = () => {
-  return `404.html`;
-};
-
-export const getHeadConfig: GetHeadConfig<
-  TemplateRenderProps
-> = (): HeadConfig => {
-  return {
-    title: "404 Page",
-    charset: "UTF-8",
-    viewport: "width=device-width, initial-scale=1",
-    tags: [
-      {
-        type: "link",
-        attributes: {
-          rel: "icon",
-          type: "image/x-icon",
-          href: Favicon,
-        },
-      },
-    ],
+    TemplateProps,
+    TemplateRenderProps,
+    GetHeadConfig,
+    GetPath,
+    Template,
+  } from "@yext/pages";
+  import * as React from "react";
+  import '../assets/css/404.css';
+  
+  // The path must be exactly 404.html
+  export const getPath: GetPath<TemplateProps> = () => {
+    return "404.html";
   };
-};
 
-const FourOhFour: Template<TemplateRenderProps> = () => {
-  return (
-    <>
-      <PageLayout>
-        <Banner name={"404 - Page not found"} />
-        <div className="centered-container">
-          <div className="flex justify-center items-center text-2xl bg-gray-200 h-60 rounded-md shadow-md">
-            <p>This page does not exist.</p>
-          </div>
+  
+  // Add a title to the page
+  export const getHeadConfig: GetHeadConfig<TemplateRenderProps> = () => {
+    return {
+      title: "Page Not Found",
+    };
+  };
+  
+  // Template that will show as the page
+  const FourOhFour: Template<TemplateRenderProps> = () => {
+    return (
+        <div className="wrapper-fof">
+            <div className="fof">
+                <h1>404</h1>
+                <h1 className="page-not-found">Page not found</h1>
+            </div>
         </div>
-      </PageLayout>
-    </>
-  );
-};
-
-export default FourOhFour;
+    );
+  };
+  
+  export default FourOhFour;

@@ -1,0 +1,383 @@
+{
+  "aboutUs": "About us",
+  "closed": "Closed",
+  "allDay": "All day",
+  "closeMenu": "Close menu",
+  "contact": "Contact",
+  "paymentOptions": "Payment options",
+  "socialMedia": {
+    "twitter": {
+      "followUs": "Follow us on Twitter"
+    },
+    "facebook": {
+      "visitUs": "Visit us on Facebook"
+    },
+    "instagram": {
+      "followUs": "Follow us on Instagram"
+    },
+    "linkedin": {
+      "connectWithUs": "Connect with us on LinkedIn"
+    }
+  },
+  "days": {
+    "friday": "Friday",
+    "monday": "Monday",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "thursday": "Thursday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday"
+  },
+  "gallery": "Gallery",
+  "home": "Home",
+  "howToFindUs": "How to find us",
+  "makeAnAppointment": "Make an appointment",
+  "openMenu": "Open menu",
+  "ourOpeningTimes": "Our opening times",
+  "openedIndicator": {
+    "weAreOpened": "We are open.",
+    "openingSoon": "We open soon.",
+    "closed": "Sorry, we are closed!"
+  },
+  "languages": "Languages",
+  "privacy": {
+    "back": "Back",
+    "sections": [
+      {
+        "order": 1,
+        "title": "1. Introduction",
+        "paragraphs": [
+          {
+            "type": "text",
+            "order": 1,
+            "content": "In the following, we inform you about who is responsible for processing your Data, which Data we collect in connection with your visit of our website and the use of our services, for what purposes we process this Data, as well as to whom we forward this data in some cases, among other things. In addition, we inform you about the length of processing your Data, the legal basis for the processing (insofar as any such basis should be necessary), as well as about what rights you are entitled to in relation to us with regard to the processing of your Data. This Privacy Statement applies to all of your Data that we already have in our possession or that we will have in the future. Please note that we can amend the Privacy Statement from time to time. The most recent version, as published on our website, shall be applicable."
+          },
+          {
+            "order": 2,
+            "type": "text",
+            "content": "Personal data is deemed to be all information that relates to a specific or specifiable person (hereinafter “Personal Data”). This particularly includes information such as name, address, telephone number, e-mail address, and in some circumstances also IP addresses and device IDs. In the present Privacy Statement, the generic term “Data” also includes non-person-related data and anonymised data along with Personal Data. Processing is understood to mean any handling of Data, regardless of the means and processes used, particularly collecting, storing, using, reworking, publishing, archiving, or deleting Data (hereinafter “Processing”)."
+          },
+          {
+            "order": 3,
+            "type": "text",
+            "content": "If you provide us with the Personal Data of other individuals, please ensure that these persons are aware of this Privacy Statement, and only notify us of their Personal Data if you are entitled to do so pursuant to applicable data protection law."
+          }
+        ]
+      },
+      {
+        "order": 2,
+        "title": "2. Name and address of the data controller",
+        "paragraphs": [
+          {
+            "type": "text",
+            "order": 1,
+            "content": "The person responsible for data Processing in accordance with this Privacy Statement (data controller) is:"
+          }
+        ]
+      },
+      {
+        "order": 3,
+        "title": "3. Categories of processed Data",
+        "paragraphs": [
+          {
+            "order": 1,
+            "type": "text",
+            "content": "When you visit our website, use our services and get in touch with us, we will collect certain Data. We fundamentally collect this Data directly from you. The Personal Data that we process may include the following Data:"
+          },
+          {
+            "order": 2,
+            "type": "submenu",
+            "content": [
+              {
+                "order": 1,
+                "type": "submenuItem",
+                "content": "Data that is collected or disclosed when you visit our website or use our services. This includes, inter alia, the IP and MAC address or device ID of the device used, cookies, pages accessed by you and search terms entered, inputs into dialog boxes, evaluations, time and length of visits, clicks, referring/exit URL, information on the time of use, the browser and device type, as well as the operating system used and the internet service provider, transferred data volume."
+              },
+              {
+                "order": 2,
+                "type": "submenuItem",
+                "content": "Data exchanged during or in relation to any contact with us, e.g. communications by letter, telephone, e-mail, contact form, etc. (in particular name, contact details, gender, marital status, date of birth, job title, photograph, employees, language, payment information)."
+              },
+              {
+                "order": 3,
+                "type": "submenuItem",
+                "content": "Data disclosed when registering for a newsletter or for purposes of downloading files (e.g. software) (in particular e-mail address and name)."
+              },
+              {
+                "order": 4,
+                "type": "submenuItem",
+                "content": "Data provided in connection with the creation of a customer account for online shopping and in connection with orders placed (in particular user name, password, selected payment method and delivery address)."
+              },
+              {
+                "order": 5,
+                "type": "submenuItem",
+                "content": "Data relating to offers and concluded contracts (e.g., contract date, type, content, product, parties, term, value, and amendments payment details, contact data, contact persons, invoicing and correspondence addresses, customer feedback, termination notices, disputes, etc.)."
+              },
+              {
+                "order": 6,
+                "type": "submenuItem",
+                "content": "Data that is disclosed in the context of the comment function (in particular e-mail address, your chosen user name unless you post anonymously, and your IP address)."
+              },
+              {
+                "order": 7,
+                "type": "submenuItem",
+                "content": "Data that you disclose when participating in lotteries, surveys, and the like."
+              }
+            ]
+          },
+          {
+            "order": 3,
+            "type": "text",
+            "content": "The Data listed above does not constitute Personal Data in every case. We are generally not able to match Data that accrues during use of our services without registration (e.g., regarding a newsletter or online shop) to any individual person specified by name. However, this may be possible in individual cases in combination with other Data."
+          },
+          {
+            "order": 4,
+            "type": "text",
+            "content": "We draw your attention to the fact that information provided in connection with the use of the contact form or the comment function may include particularly sensitive Data (such as health data) and that you have provided this to us voluntarily. "
+          }
+        ]
+      },
+      {
+        "order": 4,
+        "title": "4. Processing purposes",
+        "paragraphs": [
+          {
+            "order": 1,
+            "type": "text",
+            "content": "We will process Personal Data particularly for the following purposes, to the extent permitted by applicable law:"
+          },
+          {
+            "order": 2,
+            "type": "submenu",
+            "content": [
+              {
+                "order": 1,
+                "type": "submenuItem",
+                "content": "Commencing, concluding, performing, and processing contracts;"
+              },
+              {
+                "order": 2,
+                "type": "submenuItem",
+                "content": "Offering, enhancing, and improving our offers, developing new services, operating, maintaining, optimizing, and ensuring the security of our services and infrastructure;"
+              },
+              {
+                "order": 3,
+                "type": "submenuItem",
+                "content": "Managing the users of our services, checking identities, log-ins, and other authentications;"
+              },
+              {
+                "order": 4,
+                "type": "submenuItem",
+                "content": "Maintaining, managing, and developing our customer relationships, communicating with customers and third parties, promotions, advertising and marketing, offering customized services and relevant content;"
+              },
+              {
+                "order": 5,
+                "type": "submenuItem",
+                "content": "Quality control, compiling statistics;"
+              },
+              {
+                "order": 6,
+                "type": "submenuItem",
+                "content": "Complying with legal and regulatory obligations and internal rules, law enforcement, civil, administrative, and criminal proceedings, complaints, fighting abuse, investigations and answering inquiries from government agencies and official bodies."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "order": 5,
+        "title": "5. Legal basis",
+        "paragraphs": [
+          {
+            "order": 1,
+            "type": "text",
+            "content": "We use the Personal Data for the purposes listed above based on the following legal foundations insofar as any such is required under applicable data protection law:"
+          },
+          {
+            "order": 2,
+            "type": "submenu",
+            "content": [
+              {
+                "order": 1,
+                "type": "submenuItem",
+                "content": "Fulfilment of contractual obligations;"
+              },
+              {
+                "order": 2,
+                "type": "submenuItem",
+                "content": "Fulfilment of legal obligations;"
+              },
+              {
+                "order": 3,
+                "type": "submenuItem",
+                "content": "Consent granted to us or to third parties;"
+              },
+              {
+                "order": 4,
+                "type": "submenuItem",
+                "content": "Legitimate interests of us and of third parties, particularly:"
+              },
+              {
+                "order": 5,
+                "type": "submenu",
+                "content": [
+                  {
+                    "order": 1,
+                    "type": "submenuItem",
+                    "content": "Offering and providing services;"
+                  },
+                  {
+                    "order": 2,
+                    "type": "submenuItem",
+                    "content": "Advertising and marketing;"
+                  },
+                  {
+                    "order": 3,
+                    "type": "submenuItem",
+                    "content": "Maintaining contact and communication with users;"
+                  },
+                  {
+                    "order": 4,
+                    "type": "submenuItem",
+                    "content": "User management, identity checks, log-ins;"
+                  },
+                  {
+                    "order": 5,
+                    "type": "submenuItem",
+                    "content": "Complying with legal and regulatory obligations, law enforcement, civil, administrative, and criminal proceedings, complaints, investigations and answering inquiries from government agencies."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "order": 6,
+        "title": "6. Publication and disclosure of Data",
+        "paragraphs": [
+          {
+            "order": 1,
+            "type": "text",
+            "content": "We can publish and disclose Data as follows:"
+          },
+          {
+            "order": 2,
+            "type": "subtitle",
+            "content": "Data processors"
+          },
+          {
+            "order": 3,
+            "type": "text",
+            "content": "We can commission third parties to provide specific services (e.g., in the areas of IT, operation of applications, administration, shipping, etc.) and to process and store Data (known as “Data processors”). Data processors may have access to Personal Data and process them on our behalf. We obligate the Data processors to comply with data protection law and only to process Data in the way that we do it ourselves. Data processors that may receive Personal Data may be located in any country, particularly in Switzerland, Germany, Israel and in the US."
+          },
+          {
+            "order": 4,
+            "type": "subtitle",
+            "content": "Contract partners"
+          },
+          {
+            "order": 5,
+            "type": "text",
+            "content": "We can disclose Data to contract partners (for example, sales partners, service providers, financial companies etc.). This occurs, for instance, to fulfil contractual obligations, to offer specific services, for debt collection and marketing purposes, to analyse the use and operation of our services, systems, and infrastructure, and for payment processing. Possible recipients can also be purchasers or persons interested in acquiring business units, companies, or portions thereof. Contract partners may receive access to Personal Data and process it for their own purposes (for instance, to perform a contract or to perform their own legal obligations). In this context, they themselves are obligated to comply with applicable data protection laws. Contract partners that may receive Personal Data may be located in any country, particularly in Switzerland, in EU and EEA countries, and in the US."
+          },
+          {
+            "order": 6,
+            "type": "subtitle",
+            "content": "Disclosure to public authorities"
+          },
+          {
+            "order": 7,
+            "type": "text",
+            "content": "In certain situation, we may disclose Data to public authorities, official bodies and other third parties. We do this in cases where we have been requested to do so by a public authority or official body or where, in our view, we are obliged to do so."
+          }
+        ]
+      },
+      {
+        "order": 7,
+        "title": "7. Retention period",
+        "paragraphs": [
+          {
+            "order": 1,
+            "type": "text",
+            "content": "We store Personal Data as long as this is necessary for the purpose for which we have collected them. Specific Personal Data are also subject to legally binding retention obligations of ten or more years, which we comply with. We can also store Personal Data for at least the term of the applicable limitation periods, which in many cases are five or ten years. We generally delete Personal Data that accrues in connection with the use of our services (e.g., records, logs, analyses, etc.) and that is not subject to any such retention or limitation periods earlier, as soon as we no longer have any interest in the Processing. Data can also be retained for a longer period in each case in anonymized form. Subject to any express contractual agreement, We are not obligated to you to retain Data for any particular period of time."
+          }
+        ]
+      },
+      {
+        "order": 8,
+        "title": "8. Data security",
+        "paragraphs": [
+          {
+            "order": 1,
+            "type": "text",
+            "content": "We use suitable technical and organisational security measures in order to protect your Data against random or intentional manipulations, partial or complete loss, destruction or against unauthorised third-party access. Our security precautions are constantly keeping with the latest technological advances."
+          }
+        ]
+      },
+      {
+        "order": 9,
+        "title": "9. Your rights (rights of data subjects)",
+        "paragraphs": [
+          {
+            "order": 1,
+            "type": "text",
+            "content": "Each data subject has a right to access his or her Personal Data. In addition, he or she has the right to require us to correct, delete and limit Personal Data relating to him or her and to object to such Processing of Personal Data. Exercise of such rights generally presumes that the data subject can unequivocally prove his or her identity. If the Processing of personal data is based on consent, the data subject is entitled to revoke his or her consent at any time. The data subject has the right in certain cases to receive the Data generated during the use of online services in a structured, commonly used and machine-readable format that permits further use and transmission. Any access requests in connection with these rights shall be addressed to the aforementioned address. We reserve the right to restrict the rights of the data subject within the limits laid down by the law from time to time in force, for instance, to only provide limited information or to refrain from deleting Data. In addition, please note that deletion of your Personal Data may mean that services may no longer be available or cannot be used in whole or in part."
+          },
+          {
+            "order": 2,
+            "type": "text",
+            "content": "Each data subject has the right to make a complaint to the responsible data protection authority. If the data controller is based in Switzerland, the relevant authority is the Federal Data Protection and Information Commissioner. If the data controller is based in the Principality of Liechtenstein, the relevant authority is the Lichtenstein Data Protection Authority."
+          }
+        ]
+      },
+      {
+        "order": 10,
+        "title": "10. Cookies, web analysis and tracking tools",
+        "paragraphs": [
+          {
+            "order": 1,
+            "type": "text",
+            "content": "We use various common technologies in order to collect, store, and analyse Data when you visit our website and use our services."
+          },
+          {
+            "order": 2,
+            "type": "text",
+            "content": "This specifically includes cookies that can be used to identify your browser or device. A cookie is a small file that is sent to your computer or is stored automatically on your computer or mobile device. When you call up a service again, it can recognize your browser or your device using the cookie. Cookies can store user settings and other information. We use session cookies. These are necessary to run the basic features of the services and will be automatically deleted after a use of our services. We also use temporary and permanent cookies, which remain stored on your computer or mobile device for a longer period of time. The information collected by means of cookies enables us to improve our website and services according to customer wishes and to provide you with offers tailored to your needs."
+          },
+          {
+            "order": 3,
+            "type": "text",
+            "content": "You can block the use of cookies in your browser settings or delete them there. Please note that if cookies are not permitted, it may be that not all functions of a service can be used in their entirety, and that if cookies are deleted, any opt-out cookies set by you will also be deleted. Such opt-out cookies would then have to be re-activated in case of another visit to the corresponding service. Otherwise, you will be recognized as a new user and your Data will be collected again."
+          },
+          {
+            "order": 4,
+            "type": "text",
+            "content": "In addition to cookies, we use web analysis and tracking tools to measure and analyse the use of our website and services, to personalise the services and to display offers and adverts tailored to you. The data Processing by such tools, which are usually provided by third parties, is governed by the terms of use and data protection of these third parties."
+          }
+        ]
+      },
+      {
+        "order": 11,
+        "title": "11. Integration of third-party services",
+        "paragraphs": [
+          {
+            "order": 1,
+            "type": "text",
+            "content": "We integrate third-party services and content on our websites that may enable you to interact with third parties (e.g. YouTube videos or online payments via a payment service provider). Any provided Data will be forwarded to these third parties for processing and performance of the corresponding service or directly processed by them."
+          },
+          {
+            "order": 2,
+            "type": "text",
+            "content": "Please note that the terms of use and data protection provisions of these third parties apply to the data processing by these third parties."
+          }
+        ]
+      }
+    ],
+    "companyName": "Company name",
+    "address": "Address",
+    "phone": "Telephone",
+    "email": "E-Mail",
+    "title": "Privacy Statement"
+  }
+}

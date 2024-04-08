@@ -1,8 +1,6 @@
-# SITE-STARTER-REACT-BASICCCCCc
+# SITE-STARTER-REACT-BASIC
 
 This repository provides a basic example of how to start developing a React site on the Yext Pages system.
-
-Follow this Track on Hitchhikers to build a full website with Search, Directories, Analytics and more based off of this starter repo: https://hitchhikers.yext.com/tracks/pages-development/
 
 ## Getting Started
 
@@ -14,7 +12,8 @@ Follow this Track on Hitchhikers to build a full website with Search, Directorie
 
    - It's recommend to use nvm: https://github.com/nvm-sh/nvm#installing-and-updating or via brew `brew install nvm`
 
-1. Have a Yext account. This is necessary for production builds, deploying on Yext Pages, and pulling local stream document data via `yext pages generate-test-data`.
+1. Optional: Have a Yext account (necessary for production builds, deploying on Yext Pages, and pulling local stream document data via `yext pages generate-test-data`). This starter already comes with some localData that can be used for local dev without the need to init with a Yext account.
+
 
 ### Clone this repo and install dependencies
 
@@ -24,37 +23,26 @@ cd pages-starter-react-locations
 npm install
 ```
 
-### Recommended Development Flow
-
-While _developing locally_, run the following command:
-
-```
-npm run dev
-```
-
-This command will start a Vite-powered dev server that will enable hot-reloading. Additionally, the command will generate a `localData` directory that contains a subset of your Knowledge Graph data. This command is automatically in "dynamic" mode, which means it will pull data updates automatically from your Knowledge graph, so real-time data changes in your Yext account will be reflected in your local dev site.
-
-NOTE: Whenever you make changes to your stream definitions, you must re-run `npm run dev` for the system to update the `features.json` and the required entities to power your site.
-
-_Before committing_ your code, we recommend running the following command:
-
-```
-npm run build:serve
-```
-
-This command will generate a production build of your site, so you can ensure there are no build errors or unexpected behavior. This build step replicates the production build environment used in the Yext system, and serves your data at `localhost:8000`.
-
-In practice, development builds (via `npm run dev`) and production builds compile and bundle assets differently. For local development, ES Modules are loaded directly by the browser, allowing fast iteration during local development and also allows for hot module replacement (HMR). Other things like CSS are also loaded directly by the browser, including linking to sourcemaps. During a production build all of the different files are compiled (via ESBuild for jsx/tsx) and minified, creating assets as small as possible so that the final html files load quickly when served to a user. Tree-shaking also occurs during the build step, in which any unused dependencies are removed from your final build.
-
-### Other Useful commands
+### Useful commands
 
 `yext init` - Authenticates the Yext CLI with your Yext account
 
-`yext pages generate-test-data` - pull an example set of `localData` from your account. This command is packaged within `npm run dev'.
+`npm run dev` - runs your code against a local dev server using Vite
 
-`npm run build` - Runs a production build against your `localData`: part one of `npm run build:serve`
+- All stream documents come from the `localData` folder
+- You can visit either of these urls out of the box
+  - http://localhost:3000/index/123
+  - http://localhost:3000/static
 
-`npm run serve` - Runs a local server against your production-built files: part two of `npm run build:serve`
+`npm run dev -- dynamic` - same as above except instead of using files from `localData` it will pull the document from Yext on the fly
+
+`yext pages generate-test-data` - pull an example set of `localData` from your account
+
+`yext pages build` - Runs a production build against your `localData`
+
+`yext pages serve` - Runs a local server against your production-built files
+
+- It's recommended to `yext pages build` followed by `yext pages serve` before committing in order to test that a real production build won't have any issues. In practice, development builds (via `npm run dev`) and production builds compile and bundle assets differently. For local development, ES Modules are loaded directly by the browser, allowing fast iteration during local development and also allows for hot module replacement (HMR). Other things like CSS are also loaded directly by the browser, including linking to sourcemaps. During a production build all of the different files are compiled (via ESBuild for jsx/tsx) and minified, creating assets as small as possible so that the final html files load quickly when served to a user.
 
 `npm run fmt` - Automatically formats all code
 
@@ -73,8 +61,7 @@ root
 │   └───components
 │   │
 │   └───templates
-│       │   location.tsx
-│       │   robots.ts
+│       │   index.tsx
 │       │   static.tsx
 │   │
 │   └───types
@@ -90,9 +77,7 @@ NOTE: You normally wouldn't want to check in the localData folder as it's only u
 
 Contains a single `ci.json` file. This file defines how the Yext CI system will build your project. It is not used during local dev. However, it is used when running a local production build (i.e. `yext pages build`).
 
-NOTE: A `features.json` file will automatically be generated during CI build for you based on the template configs defined in your templates. If this file doesn't exist then `yext pages build` will implicitly generate a new one when it calls `npm run build:local` (defined in `sites-config/ci.json`). In the recommended devleopment flow with `npm run dev`, the `features.json` will be automatically generated.
-
-NOTE: After changing your stream definitions, you should rerun `yext pages generate` and `yext pages generate-text-data` to ensure your local build pulls in the required data from the Knowledge Graph
+NOTE: A `features.json` file will automatically be generated during CI build for you based on the `config`s defined in your templates. One has been checked in to this repo so that `yext pages generate-test-data` works out of the box (assuming you've `yext init`'ed with your Yext account). If this file doesn't exist then `yext pages build` will implicitly generate a new one when it calls `npm run directbuild` (defined in `sites-config/ci.json`).
 
 ### src
 
@@ -105,7 +90,9 @@ This is where all of your custom components _may_ live. This folder is not requi
 Required. This is where your actual templates live. There are effectively two types of components:
 
 1. stream-based templates: those that have an exported `config`
-1. static templates: those that don't have an exported `config`.
+1. static templates: those that don't have an exported `config`. Furthermore, they may also export a `getStaticProps` function if external data is required.
+
+NOTE: It's not currently possible to generate multiple html files using a static template, even if `getStaticProps` returns arrayed data.
 
 #### types
 
@@ -127,3 +114,9 @@ The rest of the files are basic config setup common to many other React projects
 1. ESLint - catches errors in your code
 1. Prettier - formats your code (you can add .prettierrc to override any default settings)
 1. TypeScript - adds typing to Javascript for a better developer experience
+
+## Temporary Changes / Additional Notes
+
+### .npmrc
+
+This file is necessary while this repository is private. You will need to add an environment variable called `NPM_TOKEN` in your branch settings in the Yext Pages UI. You can create the token via the https://npmjs.org 'Access Tokens' section. You will also need to export `NPM_TOKEN` in ~/.bash_profile locally as well (`npm login` doesn't seem to work when this file exists in the repo).

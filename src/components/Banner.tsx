@@ -1,55 +1,74 @@
-import * as React from "react";
-import { Address } from "../types/Address";
-import Cta from "./Cta";
+import { t } from 'i18next';
+import * as React from 'react';
+import { Image } from '../types/Image';
+import { ReservationUrl } from '../types/reservation-url';
 
-export interface BannerProps {
-  name?: string;
-  address?: Address;
-}
-
-const renderPrettyAddress = (address?: Address) => {
-  return (
-    <>
-      {address && (
-        <span>
-          {address.line1} in {address.city}, {address.region}
-        </span>
-      )}
-    </>
-  );
+export type Banner = {
+  siteName: string;
+  reservationUrl?: ReservationUrl;
+  heroImage?: Image;
 };
 
-const Banner = (props: BannerProps) => {
-  const { name, address } = props;
+function getReservationUrl(
+  reservationUrl: ReservationUrl | undefined
+): string | null {
+  let urlForReservation = null;
+  if (reservationUrl) {
+    if (reservationUrl.preferDisplayUrl) {
+      urlForReservation = reservationUrl.displayUrl;
+    } else {
+      urlForReservation = reservationUrl.url;
+    }
+  }
+  if (urlForReservation && urlForReservation.startsWith('https://yellow')) {
+    urlForReservation = urlForReservation?.replace('yellow', 'www');
+  }
+  return urlForReservation;
+}
+
+const Banner = ({ siteName, reservationUrl, heroImage }: Banner) => {
+  const urlForReservation = getReservationUrl(reservationUrl);
 
   return (
     <>
-      <div
-        className={`relative z-10 w-full bg-cover bg-center h-96 bg-[url(/src/assets/images/tacos-1.avif)] `}
-      >
-        <div className="absolute left-0 right-0 flex flex-col items-center">
-          <div className="w-96 my-8 rounded-xl bg-amber-500 border-8 shadow-xl border-amber-600 px-4 py-2 text-center">
-            <div>
-              <h1 data-testid="entity-name" className="text-white text-3xl font-semibold">{name}</h1>
-              <p className="text-lg pt-2 text-white font-semibold">
-                {renderPrettyAddress(address)}
-              </p>
-            </div>
-            <div className="flex py-3 justify-between">
-              <Cta
-                buttonText="Order Pickup"
-                url="#"
-                style="text-orange bg-white"
-              ></Cta>
-              <Cta
-                buttonText="Order Delivery"
-                url="#"
-                style="text-orange bg-white"
-              ></Cta>
+      <section className="p-0 no-zebra overflow-hidden">
+        <div className="relative w-full">
+          <div className="w-full">
+            <div
+              id="hero"
+              className="hero-box bgfilter vignette dark:text-white grid grid-cols-1 content-center justify-items-center justify-center aspect-square sm:aspect-[2/1] max-h-[30rem] lg:max-h-[40rem]"
+            >
+              <div className="relative text-center mx-auto w-5/6">
+                <h1 className="text-4xl lg:text-6xl text-shadow-[0_4px_12px_rgba(0,0,0,0.42)] p-2">
+                  {siteName}
+                </h1>
+                <div>
+                  {urlForReservation && (
+                    <a
+                      href={urlForReservation}
+                      title={t('makeAnAppointment') as string}
+                      aria-label={t('makeAnAppointment') as string}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="flex items-center justify-center cta-primary btn btn-primary transition-all hover:scale-105 mt-5 sm:max-w-sm mx-auto"
+                    >
+                      <span className="pl-2">{t('makeAnAppointment')}</span>
+                    </a>
+                  )}
+                </div>
+              </div>
+              <div className="hero-img-box absolute right-[-50%] left-[-50%] sm:right-0 sm:left-0 top-0 bottom-0 margin-auto overflow-hidden pointer-events-none z-[-1]">
+                <img
+                  data-src={heroImage?.image.url}
+                  className="hero-img align-middle w-auto min-w-full min-h-full max-w-none h-full sm:w-full sm:h-auto"
+                  src={heroImage?.image.url}
+                  alt=""
+                />
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 };

@@ -1,0 +1,383 @@
+{
+  "aboutUs": "Chi siamo",
+  "closed": "Chiuso",
+  "allDay": "Tutto il giorno",
+  "closeMenu": "Chiudere il menu",
+  "contact": "Contatto",
+  "paymentOptions": "Opzioni di pagamento",
+  "socialMedia": {
+    "twitter": {
+      "followUs": "Seguici su Twitter"
+    },
+    "facebook": {
+      "visitUs": "Seguici su Facebook"
+    },
+    "instagram": {
+      "followUs": "Seguici su Instagram"
+    },
+    "linkedin": {
+      "connectWithUs": "Seguici su LinkedIn"
+    }
+  },
+  "days": {
+    "friday": "Venerdì",
+    "monday": "Lunedì",
+    "saturday": "Sabato",
+    "sunday": "Domenica",
+    "thursday": "Giovedì",
+    "tuesday": "Martedì",
+    "wednesday": "Mercoledì"
+  },
+  "gallery": "Galleria",
+  "home": "Inizio",
+  "howToFindUs": "Come trovarci",
+  "makeAnAppointment": "Prenota un appuntamento",
+  "openMenu": "Aprire il menu",
+  "ourOpeningTimes": "I nostri orari di apertura",
+  "openedIndicator": {
+    "weAreOpened": "Siamo aperti.",
+    "openingSoon": "Apriamo presto.",
+    "closed": "Spiacenti, siamo chiusi!"
+  },
+  "languages": "Lingue",
+  "privacy": {
+    "back": "Ritornare",
+    "sections": [
+      {
+        "order": 1,
+        "title": "1. Introduzione",
+        "paragraphs": [
+          {
+            "type": "text",
+            "order": 1,
+            "content": "Di seguito La informiamo, fra l’altro, di chi sia il titolare del trattamento dei Suoi dati, di quali dati raccogliamo in relazione alla visita del nostro sito e all’utilizzo dei nostri servizi, per quali finalità trattiamo tali dati e a chi eventualmente li inoltriamo. Inoltre, La informiamo della durata del trattamento dei Suoi dati, della base legale del trattamento (qualora ne fosse necessaria una), nonché di quali diritti Le spettino nei nostri confronti per quanto riguarda il trattamento dei Suoi dati. La presente informativa sulla protezione dei dati vige per tutti i Suoi dati già in nostro possesso o che lo saranno in futuro. Voglia notare che di tanto in tanto l’informativa sulla protezione dei dati potrà essere modificata. Si applica la versione corrente aggiornata, pubblicata sul nostro sito."
+          },
+          {
+            "order": 2,
+            "type": "text",
+            "content": "Per dati personali si intendono tutte le informazioni che si riferiscono a una persona determinata o determinabile (di seguito «dati personali»). Vi rientrano, in particolare, informazioni come nome, indirizzo, numero telefonico, indirizzo e-mail, eventualmente anche indirizzi IP e identificativi di dispositivi. Il termine generico «dati» racchiude, nella presente informativa sulla protezione dei dati, oltre ai dati personali anche i dati non personali e i dati anonimizzati. Per trattamento si intende ogni gestione di dati, indipendentemente dalle procedure e dei mezzi utilizzati, in particolare la raccolta, la memorizzazione, l’utilizzo, la modifica, la divulgazione, l’archiviazione o la cancellazione di dati (di seguito «trattamento»)."
+          },
+          {
+            "order": 3,
+            "type": "text",
+            "content": "Se ci fornisce dati personali di altri soggetti, si accerti che tali soggetti siano a conoscenza della presente informativa sulla protezione dei dati e ci comunichi i loro dati solo se è autorizzata a farlo ai sensi del diritto sulla protezione dei dati vigente."
+          }
+        ]
+      },
+      {
+        "order": 2,
+        "title": "2. Nome e indirizzo del titolare del trattamento",
+        "paragraphs": [
+          {
+            "type": "text",
+            "order": 1,
+            "content": "Titolare del trattamento dei dati ai sensi della presente informativa sulla protezione dei dati è:"
+          }
+        ]
+      },
+      {
+        "order": 3,
+        "title": "3. Categorie dei dati trattati",
+        "paragraphs": [
+          {
+            "order": 1,
+            "type": "text",
+            "content": "Quando visita il nostro sito, utilizza i nostri servizi e ci contatta, raccogliamo determinati dati. Di norma raccogliamo tali dati direttamente da Lei. Nei dati personali che trattiamo possono rientrare i seguenti dati:"
+          },
+          {
+            "order": 2,
+            "type": "submenu",
+            "content": [
+              {
+                "order": 1,
+                "type": "submenuItem",
+                "content": "Dati che vengono individuati o comunicati durante la visita del nostro sito o l’utilizzo dei nostri servizi. Vi rientrano, fra l’altro, indirizzo IP e MAC oppure ID dell’apparecchio utilizzato, cookie, pagine da Lei richiamate e termini di ricerca inseriti, immissioni in campi di testo, valutazioni, ora e durata delle visite, click, URL addetto/di uscita, informazioni sull’ora dell’utilizzo, sul tipo di browser e di apparecchio, sul sistema operativo e sul provider di servizi Internet utilizzati, nonché sulla quantità di dati trasmessa."
+              },
+              {
+                "order": 2,
+                "type": "submenuItem",
+                "content": "Dati che vengono scambiati durante o relativamente a contatti con noi, p.es. comunicazione tramite lettera, telefono, e-mail, modulo di contatto, ecc. (in particolare nome, dati di contatto, sesso, stato civile, data di nascita, titolo professionale, foto, collaboratori, lingua, informazioni di pagamento)."
+              },
+              {
+                "order": 3,
+                "type": "submenuItem",
+                "content": "Dati (in particolare, indirizzo e-mail e nome) che vengono comunicati al momento dell’iscrizione a una newsletter o del download di dati (p.es. software)."
+              },
+              {
+                "order": 4,
+                "type": "submenuItem",
+                "content": "Dati che vengono comunicati nell’ambito della creazione di un account cliente per lo shopping online e in relazione agli ordini effettuati (in particolare nome utente, password, modalità di pagamento selezionata e indirizzo di consegna)."
+              },
+              {
+                "order": 5,
+                "type": "submenuItem",
+                "content": "Dati relativi a offerte e contratti stipulati (p.es. data, tipo, contenuto, prodotto, parti, durata, valore, adeguamenti del contratto, informazioni sul pagamento, dati di contatto, referenti, indirizzi di fatturazione e corrispondenza, feedback cliente, disdette, controversie, ecc.)."
+              },
+              {
+                "order": 6,
+                "type": "submenuItem",
+                "content": "Dati che vengono comunicati nell’ambito della funzione commenti (in particolare indirizzo e-mail, il nome utente da Lei scelto qualora non commenti anonimamente, nonché il Suo indirizzo IP)."
+              },
+              {
+                "order": 7,
+                "type": "submenuItem",
+                "content": "Dati che Lei comunica durante la partecipazione a giochi a premi, sondaggi e similari."
+              }
+            ]
+          },
+          {
+            "order": 3,
+            "type": "text",
+            "content": "I succitati dati non sono sempre dati personali. Di norma, non siamo in grado di attribuire a soggetti individualizzati nominalmente i dati generatisi durante l’utilizzo dei nostri servizi senza registrazione (p.es. a una newsletter o nello Shop online). In casi particolari, ciò può verificarsi, tuttavia, in combinazione con altri dati."
+          },
+          {
+            "order": 4,
+            "type": "text",
+            "content": "Richiamiamo la Sua attenzione sul fatto che le informazioni che vengono fornite nell’ambito dell'utilizzo del modulo di contatto o della funzione commenti possono contenere dati personali degni di particolare protezione (p.es. dati sullo stato di salute) che Lei ci fornisce volontariamente."
+          }
+        ]
+      },
+      {
+        "order": 4,
+        "title": "4. Finalità del trattamento",
+        "paragraphs": [
+          {
+            "order": 1,
+            "type": "text",
+            "content": "Il trattamento di dati personali, nella misura consentita dal diritto applicabile, verrà eseguito in particolare per le seguenti finalità:"
+          },
+          {
+            "order": 2,
+            "type": "submenu",
+            "content": [
+              {
+                "order": 1,
+                "type": "submenuItem",
+                "content": "avvio, conclusione, adempimento ed esecuzione di contratti;"
+              },
+              {
+                "order": 2,
+                "type": "submenuItem",
+                "content": "offerta, ulteriore sviluppo e miglioramento delle nostre offerte, sviluppo di nuovi servizi, gestione, manutenzione, ottimizzazione e garanzia della sicurezza dei nostri servizi e della nostra infrastruttura;"
+              },
+              {
+                "order": 3,
+                "type": "submenuItem",
+                "content": "gestione degli utenti, dei nostri servizi, controlli di identità, login e altre autenticazioni;"
+              },
+              {
+                "order": 4,
+                "type": "submenuItem",
+                "content": "cura, amministrazione e sviluppo dei nostri rapporti con la clientela, comunicazione con clienti e con terzi, promozioni, pubblicità e marketing, offerta di servizi personalizzati e di contenuti rilevanti;"
+              },
+              {
+                "order": 5,
+                "type": "submenuItem",
+                "content": "controllo di qualità, calcolo di statistiche;"
+              },
+              {
+                "order": 6,
+                "type": "submenuItem",
+                "content": "rispetto di obblighi legali e regolamentari e di norme interne, applicazione del diritto, processi civili, amministrativi e penali, reclami, lotta contro gli abusi, indagini e risposta a domande di autorità e servizi amministrativi."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "order": 5,
+        "title": "5. Base giuridica",
+        "paragraphs": [
+          {
+            "order": 1,
+            "type": "text",
+            "content": "Utilizziamo i dati personali per le succitate finalità sulla scorta delle seguenti basi legali, nella misura in cui sia necessario ai sensi del diritto applicabile in materia di protezione dei dati:"
+          },
+          {
+            "order": 2,
+            "type": "submenu",
+            "content": [
+              {
+                "order": 1,
+                "type": "submenuItem",
+                "content": "adempimento del contratto;"
+              },
+              {
+                "order": 2,
+                "type": "submenuItem",
+                "content": "adempimento di obblighi legali;"
+              },
+              {
+                "order": 3,
+                "type": "submenuItem",
+                "content": "consenso rilasciato a noi o a terzi;"
+              },
+              {
+                "order": 4,
+                "type": "submenuItem",
+                "content": "interessi legittimi nostri e di terzi, in particolare:"
+              },
+              {
+                "order": 5,
+                "type": "submenu",
+                "content": [
+                  {
+                    "order": 1,
+                    "type": "submenuItem",
+                    "content": "offerta e prestazione di servizi;"
+                  },
+                  {
+                    "order": 2,
+                    "type": "submenuItem",
+                    "content": "pubblicità e marketing;"
+                  },
+                  {
+                    "order": 3,
+                    "type": "submenuItem",
+                    "content": "cura dei contatti e comunicazione con utenti;"
+                  },
+                  {
+                    "order": 4,
+                    "type": "submenuItem",
+                    "content": "gestione utenti, controlli di identità, login;"
+                  },
+                  {
+                    "order": 5,
+                    "type": "submenuItem",
+                    "content": "rispetto di obblighi legali e regolamentari, applicazione del diritto, procedimenti civili, amministrativi e penali, reclami, indagini e risposta a domande di autorità."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "order": 6,
+        "title": "6. Pubblicazione e trasmissione di dati",
+        "paragraphs": [
+          {
+            "order": 1,
+            "type": "text",
+            "content": "Possiamo pubblicare e trasmettere dati come di seguito indicato:"
+          },
+          {
+            "order": 2,
+            "type": "subtitle",
+            "content": "Responsabili del trattamento"
+          },
+          {
+            "order": 3,
+            "type": "text",
+            "content": "Possiamo incaricare dei terzi dell’esecuzione di determinate prestazioni (p.es. in ambito IT, nella gestione di applicazioni, nell’amministrazione, nella spedizione, ecc.) e del trattamento e della memorizzazione di dati (cosidd. «responsabili del trattamento»). I responsabili del trattamento possono accedere a dati personali e trattarli per nostro conto. A tal riguardo, obblighiamo i responsabili del trattamento ad attenersi al diritto in materia di protezione dei dati e a trattare i dati solo come li trattiamo noi stessi. I responsabili del trattamento che possono ricevere dei dati personali possono essere dislocati in qualsiasi Paese, in particolare in Svizzera, Germania, Israele e negli Stati Uniti."
+          },
+          {
+            "order": 4,
+            "type": "subtitle",
+            "content": "Contraenti"
+          },
+          {
+            "order": 5,
+            "type": "text",
+            "content": "Possiamo trasmettere dati a contraenti (p.es. partner di vendita, fornitori di prestazioni, imprese finanziarie, ecc.). Ciò avviene per esempio per adempiere a obblighi contrattuali, per offrire determinati servizi, per scopi di incasso e di marketing, per l’analisi dell’utilizzo e la gestione dei nostri servizi, dei nostri sistemi e della nostra infrastruttura e per l’esecuzione dei pagamenti. Possibili destinatari possono essere anche acquirenti o soggetti interessati all’acquisto di unità aziendali, delle società o di parti delle stesse. I contraenti possono ottenere l’accesso a dati personali e trattarli per scopi propri (per esempio per l’adempimento del contratto o di obblighi legali propri). Essi sono tenuti, al riguardo, a rispettare le leggi applicabili in materia di protezione dei dati. I contraenti che possono ricevere dei dati personali possono essere dislocati in qualsiasi Paese, in particolare in Svizzera, in Paesi dell’UE e del SEE e negli Stati Uniti."
+          },
+          {
+            "order": 6,
+            "type": "subtitle",
+            "content": "Trasmissione ad autorità"
+          },
+          {
+            "order": 7,
+            "type": "text",
+            "content": "In determinate situazioni possiamo divulgare dati ad autorità, servizi e altri terzi. Lo facciamo nei casi in cui ci viene richiesto a titolo ufficiale o da parte di autorità o qualora, a nostro parere, vi siamo tenuti."
+          }
+        ]
+      },
+      {
+        "order": 7,
+        "title": "7. Durata della conservazione",
+        "paragraphs": [
+          {
+            "order": 1,
+            "type": "text",
+            "content": "Memorizziamo dati personali, fintantoché sia necessario per le finalità per cui li abbiamo raccolti. Determinati dati personali sono soggetti, inoltre, a obblighi di conservazione giuridicamente vincolanti di dieci o più anni a cui ci atteniamo. Possiamo inoltre memorizzare dati personali almeno per la durata dei termini di prescrizione applicabili, pari in diversi casi a cinque o a dieci anni. I dati personali che si generano nell’ambito dell’utilizzo dei nostri servizi (p.es. verbali, log, analisi, ecc.) e che non sono soggetti a siffatti termini di conservazione o di prescrizione, vengono in linea di massima cancellati prima, non appena viene meno l’interesse al loro trattamento. I dati possono essere conservati anche più a lungo in forma anonimizzata. Salvo accordo contrattuale espresso, non siamo tenuti nei Suoi confronti a conservare i dati per una determinata durata."
+          }
+        ]
+      },
+      {
+        "order": 8,
+        "title": "8. Sicurezza dei dati",
+        "paragraphs": [
+          {
+            "order": 1,
+            "type": "text",
+            "content": "Adottiamo misure di sicurezza tecniche e organizzative adeguate per proteggere i Suoi dati da manipolazioni casuali o intenzionali, da perdita parziale o totale, distruzione o accesso illecito da parte di terzi. Le nostre misure di sicurezza vengono costantemente migliorate in funzione dell’evoluzione tecnologica."
+          }
+        ]
+      },
+      {
+        "order": 9,
+        "title": "9. I suoi diritti (diritti della persona interessata)",
+        "paragraphs": [
+          {
+            "order": 1,
+            "type": "text",
+            "content": "Ogni persona interessata ha un diritto d’informazione vertente sui dati personali che la concernono. La persona interessata ha inoltre il diritto di esigere da noi la rettifica, la cancellazione e il contenimento dei dati che la concernono, nonché di opporsi a un tale trattamento dei dati personali. L’esercizio di tali diritti presuppone di norma che la persona interessata possa dimostrare inequivocabilmente la propria identità. Nel caso in cui il trattamento dei dati personali poggia su un consenso, quest’ultimo può essere revocato in qualsiasi momento dalla persona interessata. La persona interessata ha il diritto, in taluni casi, di ricevere i dati generati durante l’utilizzo di servizi online in un formato strutturato, di uso comune e leggibile da dispositivo automatico che le permetta l’ulteriore utilizzo e trasmissione. Le richieste connesse a tali diritti devono essere inviate all’indirizzo succitato. Ci riserviamo di limitare i diritti della persona interessata entro i limiti della legislazione correntemente applicabile e, p.es., di non rilasciare informazioni complete o di non cancellare i dati. Richiamiamo, inoltre, la Sua attenzione sul fatto che con la cancellazione dei Suoi dati personali, una parte o la totalità dei servizi potrebbe non essere più utilizzabile o disponibile."
+          },
+          {
+            "order": 2,
+            "type": "text",
+            "content": "Ogni persona interessata ha il diritto di inoltrare un reclamo alla competente autorità di protezione dei dati. In caso di un titolare del trattamento in Svizzera, sarà l’Incaricato federale della protezione dei dati e della trasparenza. In caso di un titolare del trattamento nel Principato del Liechtenstein, sarà il Servizio Protezione dei dati del Liechtenstein."
+          }
+        ]
+      },
+      {
+        "order": 10,
+        "title": "10. Cookie, strumenti di analisi del web e di tracciamento",
+        "paragraphs": [
+          {
+            "order": 1,
+            "type": "text",
+            "content": "Ci serviamo di diverse tecnologie comuni per registrare, memorizzare e analizzare i dati qualora Lei visiti il nostro sito e utilizzi i nostri servizi."
+          },
+          {
+            "order": 2,
+            "type": "text",
+            "content": "Tali tecnologie comprendono in particolare i cookie grazie ai quali il Suo browser o il suo terminale può essere identificato. Un cookie è un piccolo file che viene inviato al Suo computer o che viene memorizzato automaticamente dal browser utilizzato sul Suo computer o dispositivo mobile. Qualora richiami nuovamente un servizio, detto servizio potrà riconoscere il Suo browser o il Suo terminale grazie al cookie. I cookie possono memorizzare impostazioni dell’utente e altre informazioni. Utilizziamo cookie di sessione. Questi cookie sono necessari per poter eseguire le funzioni basilari dei servizi e vengono eliminati di nuovo automaticamente dopo un utilizzo dei nostri servizi. Oltre a ciò, utilizziamo anche dei cookie temporanei e permanenti che rimangono memorizzati più a lungo sul Suo computer o dispositivo mobile. Le informazioni raccolte tramite i cookie ci permettono di migliorare il nostro sito e i nostri servizi conformemente ai desideri del cliente e di proporle offerte personalizzate."
+          },
+          {
+            "order": 3,
+            "type": "text",
+            "content": "Può bloccare l’uso di cookie o eliminarli nelle impostazioni del Suo browser. Voglia notare che, in caso di mancato consenso ai cookie, vi è l’eventualità che non tutte le funzioni di un servizio possano essere utilizzate pienamente e che in caso di eliminazione dei cookie, verranno cancellati anche i cookie di opt-out da Lei eventualmente impostati. Tali cookie di opt-out dovrebbero poi essere riattivati in caso di una nuova visita del relativo servizio. In caso contrario, verrà riconosciuto come nuovo utente e sarà necessario raccogliere nuovamente i Suoi dati."
+          },
+          {
+            "order": 4,
+            "type": "text",
+            "content": "Oltre ai cookie, impieghiamo strumenti di analisi del web e di tracciamento per valutare e analizzare l’utilizzo del nostro sito e dei nostri servizi, per personalizzare i servizi e per mostrarle offerte e messaggi pubblicitari personalizzati. Per il trattamento dei dati tramite tali strumenti che, per lo più, vengono messi a disposizione da terzi, vigono le condizioni relative all’uso e alla protezione dei dati di questi ultimi."
+          }
+        ]
+      },
+      {
+        "order": 11,
+        "title": "11. Integrazione di offerte di terzi",
+        "paragraphs": [
+          {
+            "order": 1,
+            "type": "text",
+            "content": "Nei nostri siti integriamo servizi e contenuti di terzi che possono permetterle di interagire con terzi (p.es. video Youtube o pagamento online tramite un fornitore di servizi di pagamento). A questo proposito, i dati eventualmente indicati vengono trasmessi a tali terzi per il trattamento e l’esecuzione della relativa prestazione di servizio oppure vengono trattati direttamente presso tali terzi."
+          },
+          {
+            "order": 2,
+            "type": "text",
+            "content": "Bitte beachten Sie, dass für die Datenbearbeitungen dieser Dritten deren Nutzungs- und Datenschutzbestimmungen gelten."
+          }
+        ]
+      }
+    ],
+    "companyName": "Voglia notare che per il trattamento dei dati da parte di tali terzi vigono le loro disposizioni relative all’uso e alla protezione dei dati.",
+    "address": "Indirizzo",
+    "phone": "Telefono",
+    "email": "E-Mail",
+    "title": "Informativa sulla protezione dei dati "
+  }
+}

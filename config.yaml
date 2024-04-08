@@ -7,4 +7,4 @@ buildConfiguration:
       - package-lock.json
       - .npmrc
 livePreviewConfiguration:
-  setupCommand: npm run dev -- --no-prod-url --local
+  setupCommand: ':'

@@ -1,18 +1,22 @@
-import * as React from "react";
+import { t } from 'i18next';
+import * as React from 'react';
 
-export interface AboutProps {
-  name?: string;
-  description?: string;
-}
+type About = {
+  description: string;
+};
 
-const About = ({ name, description }: AboutProps) => {
-  const about = name === null ? "About" : `About ${name}`;
+const About = (props: About) => {
+  const { description } = props;
   return (
     <>
-      <div className="border-b border-gray-300 bg-gray-100 shadow-md rounded-lg p-2 px-4 py-5 sm:p-6">
-        <div className="text-xl font-semibold">{about}</div>
-        {description && <p className="pt-4">{description}</p>}
-      </div>
+      <section id="about" className="flex">
+        <div className="w-5/6 max-w-2xl mx-auto">
+          <h1 className="text-3xl lg:text-4xl pb-[1.2em] text-center">
+            {t('aboutUs')}
+          </h1>
+          <p className="description">{description}</p>
+        </div>
+      </section>
     </>
   );
 };
