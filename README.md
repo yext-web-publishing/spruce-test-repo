@@ -1,4 +1,4 @@
-# SITE-STARTER-REACT-BASICCCCCCC
+# SITE-STARTER-REACT-BASICCCCCCCC
 
 This repository provides a basic example of how to start developing a React site on the Yext Pages system.
 
