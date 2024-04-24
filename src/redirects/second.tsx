@@ -7,7 +7,7 @@ import {
 
 export const config: RedirectConfig = {
   stream: {
-    $id: "other-location-redirects",
+    $id: "second-location-redirects",
     fields: ["id", "address", "name"],
     filter: {
       entityTypes: ["location"],
@@ -32,7 +32,7 @@ export const getDestination: GetDestination<TemplateProps> = ({ document }) => {
 export const getSources: GetSources<TemplateProps> = ({ document }) => {
   return [
     {
-      "source": `destination/${document.locale}/${document.id.toString()}`,
+      "source": `second/${document.locale}/${document.id.toString()}`,
       "status": 301
     },
   ];

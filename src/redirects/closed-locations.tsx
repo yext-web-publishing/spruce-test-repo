@@ -37,7 +37,7 @@ export const getSources: GetSources<TemplateProps> = ({ document }) => {
     },
     {
       "source": `extraClosed/${document.locale}/${document.id.toString()}`,
-      "status": 302
+      "status": 308
     },
   ];
 };
