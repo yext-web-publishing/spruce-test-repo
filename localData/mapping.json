@@ -2,6 +2,18 @@
 	"404": [
 		"cog-internal-feature-static-file-generation-404__en__cfcd208495d565ef66e7dff9f98764da.json"
 	],
+	"location": [
+		"location-stream__en__450bbe796bb9ae64907c65d03c304d47.json",
+		"location-stream__en__39007f17f3cbed844c20b53ed4364263.json",
+		"location-stream__en__3f70d84cef465b2e5d96f6c27e690afb.json",
+		"location-stream__en__ec5410a98c44b0865a6f9fe1ba34f566.json",
+		"location-stream__en__aac818834ba1d5ebaed70c0abd4ca67a.json",
+		"location-stream__en__c78f85c3ba5a5aad3e016e6ccefdafdb.json",
+		"location-stream__en__8f6c8a3b28db37a4fcb66ec47e4a7659.json",
+		"location-stream__en__43b739c37243fa7880e5aedb4bf765eb.json",
+		"location-stream__en__47ab0c6443a502e228bf66fd86da2cc9.json",
+		"location-stream__en__3d3d72bb62b22c2c700685222dea05ba.json"
+	],
 	"robots": [
 		"cog-internal-feature-static-file-generation-robots__en__cfcd208495d565ef66e7dff9f98764da.json"
 	],

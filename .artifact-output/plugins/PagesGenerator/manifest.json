@@ -3,8 +3,9 @@
     "404": "assets/server/404.DbSUrzGD.js",
     "turtlehead-tacos": "assets/server/static.CHFQyova.js",
     "robots": "assets/server/robots.DwLWTbgC.js",
-    "location": "assets/server/location.c2YEO8ub.js"
+    "location": "assets/server/location.CZXmkZAd.js"
   },
+  "redirectPaths": {},
   "clientPaths": {
     "404": "assets/client/404.ClzhD1cc.js",
     "static": "assets/client/static.C4xp0MhP.js",
@@ -24,11 +25,14 @@
     },
     "subfolders": {
       "templates": "templates",
+      "modules": "modules",
+      "redirects": "redirects",
       "serverlessFunctions": "functions",
       "assets": "assets",
       "public": "public",
       "clientBundle": "client",
       "serverBundle": "server",
+      "redirectBundle": "redirect",
       "renderBundle": "render",
       "renderer": "renderer",
       "static": "static",
@@ -216,7 +220,7 @@
       ]
     },
     "src/templates/location.tsx": {
-      "file": "assets/server/location.c2YEO8ub.js",
+      "file": "assets/server/location.CZXmkZAd.js",
       "name": "server/location",
       "src": "src/templates/location.tsx",
       "isEntry": true,
