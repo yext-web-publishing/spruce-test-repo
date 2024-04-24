@@ -7,7 +7,7 @@ import {
 
 export const config: RedirectConfig = {
   stream: {
-    $id: "other-location-redirects",
+    $id: "third-location-redirects",
     fields: ["id", "address", "name"],
     filter: {
       entityTypes: ["location"],
@@ -22,7 +22,7 @@ export const config: RedirectConfig = {
  * Defines the URL to redirect the source paths to.
  */
 export const getDestination: GetDestination<TemplateProps> = ({ document }) => {
-  return `third/${document.locale}/${document.id.toString()}`;
+  return `closed/${document.locale}/${document.id.toString()}`;
 };
 
 
@@ -32,7 +32,7 @@ export const getDestination: GetDestination<TemplateProps> = ({ document }) => {
 export const getSources: GetSources<TemplateProps> = ({ document }) => {
   return [
     {
-      "source": `destination/${document.locale}/${document.id.toString()}`,
+      "source": `third/${document.locale}/${document.id.toString()}`,
       "status": 301
     },
   ];
