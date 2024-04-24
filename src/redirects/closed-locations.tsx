@@ -22,7 +22,7 @@ export const config: RedirectConfig = {
  * Defines the URL to redirect the source paths to.
  */
 export const getDestination: GetDestination<TemplateProps> = ({ document }) => {
-  return document.id;
+  return `closed/${document.locale}/${document.id.toString()}`;
 };
 
 
