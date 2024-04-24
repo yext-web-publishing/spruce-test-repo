@@ -19,6 +19,8 @@ import {
   TemplateProps,
   TemplateRenderProps,
   TransformProps,
+  GetDestination,
+  GetSources,
 } from "@yext/pages";
 import { isProduction } from "@yext/pages/util";
 import "../index.css";
@@ -187,5 +189,26 @@ const Location: Template<TemplateRenderProps> = ({
     </>
   );
 };
+
+/**
+ * Defines the URL to redirect the source paths to.
+ */
+export const getDestination: GetDestination<TemplateProps> = ({ document }) => {
+  return `${document.slug}`;
+};
+
+
+/**
+ * Defines a list of redirect source objects, which will redirect to the URL created by getDestination.
+ */
+export const getSources: GetSources<TemplateProps> = ({ document }) => {
+  return [
+     {
+        "source": `alternate-source-${document.id}`,
+        "status": 301
+     },
+ ];
+};
+
 
 export default Location;
