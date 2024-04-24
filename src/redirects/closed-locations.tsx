@@ -36,7 +36,7 @@ export const getSources: GetSources<TemplateProps> = ({ document }) => {
       "status": 301
     },
     {
-      "source": `closed302/${document.locale}/${document.id.toString()}`,
+      "source": `extraClosed/${document.locale}/${document.id.toString()}`,
       "status": 302
     },
   ];
