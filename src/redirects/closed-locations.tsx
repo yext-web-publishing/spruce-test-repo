@@ -22,7 +22,7 @@ export const config: RedirectConfig = {
  * Defines the URL to redirect the source paths to.
  */
 export const getDestination: GetDestination<TemplateProps> = ({ document }) => {
-  return `location5`;
+  return `en/AL/Bessemer/760 Academy Dr-1074`;
 };
 
 
