@@ -10,7 +10,7 @@ export const config: RedirectConfig = {
     $id: "closed-location-redirects",
     fields: ["id", "address", "name"],
     filter: {
-      entityIds: ["location5"],
+      entityIds: ["8353926"],
     },
     localization: {
       locales: ["en"]
