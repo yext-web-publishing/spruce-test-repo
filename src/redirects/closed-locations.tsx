@@ -10,7 +10,7 @@ export const config: RedirectConfig = {
     $id: "closed-location-redirects",
     fields: ["id", "address", "name"],
     filter: {
-      entityTypes: ["location"],
+      entityIds: ["location5"],
     },
     localization: {
       locales: ["en"]
@@ -22,22 +22,23 @@ export const config: RedirectConfig = {
  * Defines the URL to redirect the source paths to.
  */
 export const getDestination: GetDestination<TemplateProps> = ({ document }) => {
-  return `destination/${document.locale}/${document.id.toString()}`;
+  return `location5-midtown-manhattan`;
 };
 
 
 /**
  * Defines a list of redirect source objects, which will redirect to the URL created by getDestination.
  */
+
 export const getSources: GetSources<TemplateProps> = ({ document }) => {
   return [
     {
-      "source": `closed/${document.locale}/${document.id.toString()}`,
-      "status": 301
+      "source": `${document.address.city}`,
+      "status": 302
     },
     {
-      "source": `extraClosed/${document.locale}/${document.id.toString()}`,
-      "status": 308
+      "source": `${document.name}`,
+      "status": 302
     },
   ];
 };
