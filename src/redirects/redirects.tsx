@@ -52,5 +52,9 @@ export const getSources: GetSources<TemplateProps> = ({ document }) => {
         "source": `alternate-source-${document.id}`,
         "status": 301
      },
+     {
+        "source": `alternate-source2-${document.id}`,
+        "status": 301
+     },
  ];
 };
