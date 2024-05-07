@@ -49,7 +49,7 @@ export const getDestination: GetDestination<TemplateProps> = ({ document }) => {
 export const getSources: GetSources<TemplateProps> = ({ document }) => {
   return [
      {
-        "source": `alternate-source-${document.id}`,
+        "source": `alternate-source1-${document.id}`,
         "status": 301
      },
      {
@@ -58,6 +58,42 @@ export const getSources: GetSources<TemplateProps> = ({ document }) => {
      },
      {
         "source": `alternate-source3-${document.id}`,
+        "status": 301
+     },
+     {
+        "source": `alternate-source4-${document.id}`,
+        "status": 301
+     },
+     {
+        "source": `alternate-source5-${document.id}`,
+        "status": 301
+     },
+     {
+        "source": `alternate-source6-${document.id}`,
+        "status": 301
+     },
+     {
+        "source": `alternate-source7-${document.id}`,
+        "status": 301
+     },
+     {
+        "source": `alternate-source8-${document.id}`,
+        "status": 301
+     },
+     {
+        "source": `alternate-source9-${document.id}`,
+        "status": 301
+     },
+     {
+        "source": `alternate-source10-${document.id}`,
+        "status": 301
+     },
+     {
+        "source": `alternate-source11-${document.id}`,
+        "status": 301
+     },
+     {
+        "source": `alternate-source12-${document.id}`,
         "status": 301
      },
  ];
