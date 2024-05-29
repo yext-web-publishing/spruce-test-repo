@@ -217,7 +217,7 @@ const Static: Template<TemplateRenderProps> = ({
 
   let extraText = "Dang";
   if (YEXT_PUBLIC_ENTITY_ID) {
-    extraText = YEXT_PUBLIC_ENTITY_IDD;
+    extraText = YEXT_PUBLIC_ENTITY_ID;
   }
   return (
     <>
