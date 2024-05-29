@@ -215,12 +215,15 @@ const Static: Template<TemplateRenderProps> = ({
 
   const analyticsTemplateData: TemplateProps = { document, __meta };
 
+  const extraText = "Dang";
+  if (YEXT_PUBLIC_ENTITY_ID) {
+    extraText = YEXT_PUBLIC_ENTITY_ID;
+  }
   return (
     <>
       <AnalyticsProvider templateData={analyticsTemplateData}>
         <div className="zebra">
-          {"Dang"}
-          {YEXT_PUBLIC_ENTITY_ID}
+          {extraText}
           <PageLayout
             images={photoGallery as []}
             mainPhone={mainPhone}
