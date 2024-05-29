@@ -216,8 +216,8 @@ const Static: Template<TemplateRenderProps> = ({
   const analyticsTemplateData: TemplateProps = { document, __meta };
 
   let extraText = "Dang";
-  if (YEXT_PUBLIC_EXTERNAL_IMAGE_API_BASE_URL) {
-    extraText = YEXT_PUBLIC_EXTERNAL_IMAGE_API_BASE_URL;
+  if (Pang) {
+    extraText = Pang;
   }
   return (
     <>
