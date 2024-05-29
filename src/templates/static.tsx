@@ -215,7 +215,7 @@ const Static: Template<TemplateRenderProps> = ({
 
   const analyticsTemplateData: TemplateProps = { document, __meta };
 
-  const extraText = "Dang";
+  let extraText = "Dang";
   if (YEXT_PUBLIC_ENTITY_ID) {
     extraText = YEXT_PUBLIC_ENTITY_ID;
   }
