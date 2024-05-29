@@ -219,6 +219,8 @@ const Static: Template<TemplateRenderProps> = ({
     <>
       <AnalyticsProvider templateData={analyticsTemplateData}>
         <div className="zebra">
+          {"Dang"}
+          {YEXT_PUBLIC_ENTITY_ID}
           <PageLayout
             images={photoGallery as []}
             mainPhone={mainPhone}
