@@ -219,6 +219,7 @@ const Static: Template<TemplateRenderProps> = ({
   if (YEXT_PUBLIC_ENTITY_ID) {
     extraText = YEXT_PUBLIC_ENTITY_ID;
   }
+  console.log(YEXT_PUBLIC_ENTITY_ID);
   return (
     <>
       <AnalyticsProvider templateData={analyticsTemplateData}>
