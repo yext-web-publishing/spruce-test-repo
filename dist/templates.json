@@ -1,0 +1,66 @@
+{
+  "features": [
+    {
+      "name": "turtlehead-tacos",
+      "templateType": "JS",
+      "staticPage": {}
+    },
+    {
+      "name": "robots",
+      "templateType": "JS",
+      "staticPage": {}
+    },
+    {
+      "name": "location",
+      "streamId": "location-stream",
+      "templateType": "JS",
+      "entityPageSet": {}
+    },
+    {
+      "name": "404",
+      "templateType": "JS",
+      "staticPage": {}
+    }
+  ],
+  "streams": [
+    {
+      "$id": "location-stream",
+      "filter": {
+        "entityTypes": [
+          "location"
+        ]
+      },
+      "fields": [
+        "id",
+        "uid",
+        "meta",
+        "name",
+        "address",
+        "mainPhone",
+        "description",
+        "hours",
+        "slug",
+        "geocodedCoordinate",
+        "photoGallery"
+      ],
+      "localization": {
+        "locales": [
+          "en",
+          "fr",
+          "de",
+          "es",
+          "it",
+          "ar"
+        ],
+        "primary": false
+      },
+      "transform": {
+        "replaceOptionValuesWithDisplayNames": [
+          "paymentOptions"
+        ]
+      },
+      "source": "knowledgeGraph",
+      "destination": "pages"
+    }
+  ]
+}
