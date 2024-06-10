@@ -1,0 +1,5 @@
+{
+  "functions/http/function.ts": {
+    "entrypoint": "TestPlugin"
+  }
+}
