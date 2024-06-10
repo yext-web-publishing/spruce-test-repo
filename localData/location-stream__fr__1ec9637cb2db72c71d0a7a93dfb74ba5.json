@@ -1,0 +1,127 @@
+{
+	"__": {
+		"entityPageSet": {},
+		"name": "location"
+	},
+	"_site": null,
+	"address": {
+		"city": "East Falmouth",
+		"countryCode": "US",
+		"line1": "137 Teaticket Hwy",
+		"localizedCountryName": "États-Unis",
+		"localizedRegionName": "Massachusetts",
+		"postalCode": "02536",
+		"region": "MA"
+	},
+	"businessId": 4214368,
+	"description": "Description for locale \"fr\"",
+	"geocodedCoordinate": {
+		"latitude": 41.561796,
+		"longitude": -70.593972
+	},
+	"hours": {
+		"friday": {
+			"openIntervals": [
+				{
+					"end": "19:00",
+					"start": "10:00"
+				}
+			]
+		},
+		"holidayHours": [
+			{
+				"date": "2024-07-04",
+				"openIntervals": [
+					{
+						"end": "12:00",
+						"start": "11:00"
+					}
+				]
+			}
+		],
+		"monday": {
+			"openIntervals": [
+				{
+					"end": "19:00",
+					"start": "10:00"
+				}
+			]
+		},
+		"saturday": {
+			"isClosed": true
+		},
+		"sunday": {
+			"isClosed": true
+		},
+		"thursday": {
+			"openIntervals": [
+				{
+					"end": "19:00",
+					"start": "10:00"
+				}
+			]
+		},
+		"tuesday": {
+			"openIntervals": [
+				{
+					"end": "19:00",
+					"start": "10:00"
+				}
+			]
+		},
+		"wednesday": {
+			"openIntervals": [
+				{
+					"end": "19:00",
+					"start": "10:00"
+				}
+			]
+		}
+	},
+	"id": "location8",
+	"locale": "fr",
+	"mainPhone": "+12129943900",
+	"meta": {
+		"entityType": {
+			"id": "location",
+			"uid": 0
+		},
+		"locale": "fr"
+	},
+	"name": "Turtlehead Tacos - 137 Teaticket Hwy",
+	"paymentOptions": [
+		"American Express",
+		"Espèces",
+		"MasterCard",
+		"PayPal",
+		"Visa"
+	],
+	"photoGallery": [
+		{
+			"image": {
+				"height": 800,
+				"url": "http://a.mktgcdn.com/p/EOfw4a7y-p7RwzI8oosYqgfE_gJuOIKx5tuGMa2uPOA/1200x800.jpg",
+				"width": 1200
+			}
+		},
+		{
+			"image": {
+				"height": 408,
+				"url": "http://a.mktgcdn.com/p/fmIYfJlt1p_XnjNI82SvWCff9eX8RWFI8jc78FH_bgo/612x408.jpg",
+				"width": 612
+			}
+		},
+		{
+			"image": {
+				"height": 1706,
+				"url": "http://a.mktgcdn.com/p/dEj7z6VxDoOpWmw1XyT2MxDAEsMaHDBNslgmhZGl4TE/2560x1706.jpg",
+				"width": 2560
+			}
+		}
+	],
+	"siteDomain": "",
+	"siteId": 0,
+	"siteInternalHostName": "",
+	"slug": "fr/location8",
+	"uid": 1054548957
+}
