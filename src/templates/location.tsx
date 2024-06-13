@@ -51,6 +51,7 @@ export const config: TemplateConfig = {
       "name",
       "address",
       "mainPhone",
+      "foo",
       "description",
       "hours",
       "slug",
@@ -172,7 +173,7 @@ const Location: Template<TemplateRenderProps> = ({
   return (
     <>
       <PageLayout>
-        <Banner name={name.foo} address={address} />
+        <Banner name={name} address={address} />
         <div className="centered-container">
           <BreadCrumbs
             baseUrl={relativePrefixToRoot}
