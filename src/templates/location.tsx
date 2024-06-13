@@ -56,6 +56,7 @@ export const config: TemplateConfig = {
       "slug",
       "geocodedCoordinate",
       "photoGallery",
+      "yextDisplayCoordinate",
     ],
     // The entity language profiles that documents will be generated for.
     localization: {
@@ -176,7 +177,7 @@ const Location: Template<TemplateRenderProps> = ({
         <div className="centered-container">
           <BreadCrumbs
             baseUrl={relativePrefixToRoot}
-          />{geocodedCoordinate.latitude}
+          />{yextDisplayCoordinate.latitude}
           <div className="grid gap-x-10 gap-y-10 md:grid-cols-2">
             <Details address={address} phone={mainPhone} services={services} />
             {hours && <Hours title={"Restaurant Hours"} hours={hours} />}
