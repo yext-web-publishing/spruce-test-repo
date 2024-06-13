@@ -180,7 +180,7 @@ const Location: Template<TemplateRenderProps> = ({
           <div className="grid gap-x-10 gap-y-10 md:grid-cols-2">
             <Details address={address} phone={mainPhone} services={services} />
             {hours && <Hours title={"Restaurant Hours"} hours={hours} />}
-            {description && <About name={name} description={description} />}
+            {<About name={name} description={description} />}
           </div>
         </div>
       </PageLayout>
