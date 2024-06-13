@@ -178,7 +178,7 @@ const Location: Template<TemplateRenderProps> = ({
             baseUrl={relativePrefixToRoot}
           />
           <div className="grid gap-x-10 gap-y-10 md:grid-cols-2">
-            <Details address={address} phone={mainPhone} services={services} />
+            <Details address={address} phone={mainPhone.foo} services={services} />
             {hours && <Hours title={"Restaurant Hours"} hours={hours} />}
             {<About name={name} description={description} />}
           </div>
