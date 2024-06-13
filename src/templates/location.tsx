@@ -51,7 +51,6 @@ export const config: TemplateConfig = {
       "name",
       "address",
       "mainPhone",
-      "foo",
       "description",
       "hours",
       "slug",
