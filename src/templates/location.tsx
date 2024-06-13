@@ -172,13 +172,13 @@ const Location: Template<TemplateRenderProps> = ({
   return (
     <>
       <PageLayout>
-        <Banner name={name} address={address} />
+        <Banner name={name.foo} address={address} />
         <div className="centered-container">
           <BreadCrumbs
             baseUrl={relativePrefixToRoot}
           />
           <div className="grid gap-x-10 gap-y-10 md:grid-cols-2">
-            <Details address={address} phone={mainPhone.foo} services={services} />
+            <Details address={address} phone={mainPhone} services={services} />
             {hours && <Hours title={"Restaurant Hours"} hours={hours} />}
             {<About name={name} description={description} />}
           </div>
