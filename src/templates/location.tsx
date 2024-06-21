@@ -46,6 +46,7 @@ export const config: TemplateConfig = {
     // This data is passed in directly as props to the default exported function.
     fields: [
       "id",
+      "id",
       "uid",
       "meta",
       "name",
