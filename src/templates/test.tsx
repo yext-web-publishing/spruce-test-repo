@@ -14,7 +14,7 @@ import PageLayout from "../components/PageLayout";
 import Favicon from "../assets/images/yext-favicon.ico";
 
 export const config: TemplateConfig = {
-  name: "404",
+  name: "location",
 };
 
 export const getPath: GetPath<TemplateProps> = () => {
