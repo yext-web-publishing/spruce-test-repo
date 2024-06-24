@@ -147,6 +147,8 @@ export const transformProps: TransformProps<any> = async (data) => {
   };
 };
 
+const randomUUID: string = crypto.randomUUID();
+
 /**
  * This is the main template. It can have any name as long as it's the default export.
  * The props passed in here are the direct stream document defined by `config`.
@@ -182,6 +184,7 @@ const Location: Template<TemplateRenderProps> = ({
             <Details address={address} phone={mainPhone} services={services} />
             {hours && <Hours title={"Restaurant Hours"} hours={hours} />}
             {description && <About name={name} description={description} />}
+            {randomUUID}
           </div>
         </div>
       </PageLayout>
