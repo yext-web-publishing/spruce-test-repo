@@ -147,6 +147,7 @@ export const transformProps: TransformProps<any> = async (data) => {
   };
 };
 
+const crypto = require('crypto');
 const randomUUID: string = crypto.randomUUID();
 
 /**
