@@ -182,6 +182,7 @@ const Location: Template<TemplateRenderProps> = ({
             <Details address={address} phone={mainPhone} services={services} />
             {hours && <Hours title={"Restaurant Hours"} hours={hours} />}
             {description && <About name={name} description={description} />}
+            {(new Date()).toISOString()}
           </div>
         </div>
       </PageLayout>
