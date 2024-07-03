@@ -17,9 +17,6 @@
     "generate-notices": "generate-license-file --input package.json --output ./THIRD-PARTY-NOTICES --overwrite",
     "prod": "pages prod"
   },
-  "engines": {
-    "node": "^18.0.0 || >=20.2.0"
-  },
   "dependencies": {
     "@headlessui/react": "^1.7.12",
     "@heroicons/react": "^2.0.14",
