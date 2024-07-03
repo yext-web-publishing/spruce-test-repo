@@ -167,8 +167,8 @@ const Location: Template<TemplateRenderProps> = ({
     services,
     description,
     siteDomain,
+    photoGallery
   } = document;
-
   return (
     <>
       <PageLayout>
@@ -178,6 +178,7 @@ const Location: Template<TemplateRenderProps> = ({
             baseUrl={relativePrefixToRoot}
           />
           <div className="grid gap-x-10 gap-y-10 md:grid-cols-2">
+            <div>{photoGallery}</div>
             <Details address={address} phone={mainPhone} services={services} />
             {hours && <Hours title={"Restaurant Hours"} hours={hours} />}
             {description && <About name={name} description={description} />}
