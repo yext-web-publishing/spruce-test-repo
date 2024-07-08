@@ -8,3 +8,5 @@ buildConfiguration:
       - .npmrc
 livePreviewConfiguration:
   setupCommand: npm run dev -- --no-prod-url --local
+authentication:
+  policyName: test-yext-auth
