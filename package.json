@@ -18,7 +18,7 @@
     "prod": "pages prod"
   },
   "engines": {
-    "node": "17.5.x"
+    "node": "^18.4.0 || >=20.2.0"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.12",
