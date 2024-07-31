@@ -18,7 +18,7 @@
     "prod": "pages prod"
   },
   "engines": {
-    "node": ">=18.4.0"
+    "node": ">=18.20.4"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.12",
