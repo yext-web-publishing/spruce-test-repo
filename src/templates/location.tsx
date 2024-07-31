@@ -168,7 +168,6 @@ const Location: Template<TemplateRenderProps> = ({
     description,
     siteDomain,
   } = document;
-
   return (
     <>
       <PageLayout>
