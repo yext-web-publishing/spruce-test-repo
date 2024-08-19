@@ -42,8 +42,7 @@ export const config: TemplateConfig = {
     filter: {
       entityTypes: ["location"],
       entityIds: [
-        "location8longlonglonglonglonglonglonglonglonglonglonglonglong",
-        "location2"
+        "location8longlonglonglonglonglonglonglonglonglonglonglonglong"
       ],
     },
     // Specifies the exact data that each generated document will contain.
