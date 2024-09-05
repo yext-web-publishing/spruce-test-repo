@@ -8,6 +8,14 @@ buildConfiguration:
       - .npmrc
 livePreviewConfiguration:
   setupCommand: ':'
+siteStream:
+  id: site-stream
+  entityId: site
+  fields:
+    - name
+  localization:
+    locales:
+      - en
 responseHeaders:
   -
     pathPattern: .*
