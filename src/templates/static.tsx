@@ -195,7 +195,8 @@ const Static: Template<TemplateRenderProps> = ({
     additionalHoursText,
     languages,
     websiteUrl,
-  } = document as EntityData;
+    _site,
+  } = document;
 
   const { i18n } = useTranslation();
   i18n.changeLanguage(meta.locale);
@@ -215,7 +216,7 @@ const Static: Template<TemplateRenderProps> = ({
 
   const analyticsTemplateData: TemplateProps = { document, __meta };
 
-  let extraText = "Dang";
+  let extraText = _site.name;
   return (
     <>
       <AnalyticsProvider templateData={analyticsTemplateData}>
