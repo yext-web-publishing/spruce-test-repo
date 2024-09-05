@@ -216,9 +216,6 @@ const Static: Template<TemplateRenderProps> = ({
   const analyticsTemplateData: TemplateProps = { document, __meta };
 
   let extraText = "Dang";
-  if (Pang) {
-    extraText = Pang;
-  }
   return (
     <>
       <AnalyticsProvider templateData={analyticsTemplateData}>
