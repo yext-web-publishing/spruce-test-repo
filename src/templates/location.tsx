@@ -74,10 +74,20 @@ export const config: TemplateConfig = {
  * NOTE: To preview production URLs locally, you must return document.slug from this function
  * and ensure that each entity has the slug field pouplated.
  */
-export const getPath: GetPath<TemplateProps> = ({ document }) => {
+// export const getPath: GetPath<TemplateProps> = ({ document }) => {
+//   return document.slug
+//     ? document.slug
+//     : `${document.locale}/${document.address.region}/${document.address.city}/${
+//         document.address.line1
+//       }-${document.id.toString()}`;
+// };
+export const getPath: GetPath<TemplateProps> = async ({ document }) => {
+  // Simulate a 1-second asynchronous wait
+  await new Promise(resolve => setTimeout(resolve, 1000));
+
   return document.slug
     ? document.slug
-    : `${document.locale}/${document.address.region}/${document.address.city}/${
+    : `<span class="math-inline">\{document\.locale\}/</span>{document.address.region}/<span class="math-inline">\{document\.address\.city\}/</span>{
         document.address.line1
       }-${document.id.toString()}`;
 };
