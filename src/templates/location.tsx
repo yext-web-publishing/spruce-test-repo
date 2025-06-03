@@ -81,13 +81,18 @@ export const config: TemplateConfig = {
 //         document.address.line1
 //       }-${document.id.toString()}`;
 // };
-export const getPath: GetPath<TemplateProps> = async ({ document }) => {
-  // Simulate a 1-second asynchronous wait
-  await new Promise(resolve => setTimeout(resolve, 1000));
-
+export const getPath: GetPath<TemplateProps> = ({ document }) => {
+  // ----------------------------------------------------------------------
+  // For debugging purposes ONLY.
+  // It will block the main thread and is highly inefficient.
+  // ----------------------------------------------------------------------
+  const start = Date.now();
+  while (Date.now() - start < 400) {
+    // Busy-wait for 400 milliseconds
+  }
   return document.slug
     ? document.slug
-    : `<span class="math-inline">\{document\.locale\}/</span>{document.address.region}/<span class="math-inline">\{document\.address\.city\}/</span>{
+    : `${document.locale}/${document.address.region}/${document.address.city}/${
         document.address.line1
       }-${document.id.toString()}`;
 };
