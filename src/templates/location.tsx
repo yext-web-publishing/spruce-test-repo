@@ -74,22 +74,7 @@ export const config: TemplateConfig = {
  * NOTE: To preview production URLs locally, you must return document.slug from this function
  * and ensure that each entity has the slug field pouplated.
  */
-// export const getPath: GetPath<TemplateProps> = ({ document }) => {
-//   return document.slug
-//     ? document.slug
-//     : `${document.locale}/${document.address.region}/${document.address.city}/${
-//         document.address.line1
-//       }-${document.id.toString()}`;
-// };
 export const getPath: GetPath<TemplateProps> = ({ document }) => {
-  // ----------------------------------------------------------------------
-  // For debugging purposes ONLY.
-  // It will block the main thread and is highly inefficient.
-  // ----------------------------------------------------------------------
-  const start = Date.now();
-  while (Date.now() - start < 400) {
-    // Busy-wait for 400 milliseconds
-  }
   return document.slug
     ? document.slug
     : `${document.locale}/${document.address.region}/${document.address.city}/${
@@ -183,6 +168,15 @@ const Location: Template<TemplateRenderProps> = ({
     description,
     siteDomain,
   } = document;
+
+  // ----------------------------------------------------------------------
+  // For debugging purposes ONLY.
+  // It will block the main thread and is highly inefficient.
+  // ----------------------------------------------------------------------
+  const start = Date.now();
+  while (Date.now() - start < 400) {
+    // Busy-wait for 400 milliseconds
+  }
 
   return (
     <>
