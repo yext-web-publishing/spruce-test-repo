@@ -77,12 +77,11 @@ export const config: TemplateConfig = {
  * and ensure that each entity has the slug field pouplated.
  */
 export const getPath: GetPath<TemplateProps> = ({ document }) => {
-  return "same-path";
-  // return document.slug
-  //   ? document.slug
-  //   : `${document.locale}/${document.address.region}/${document.address.city}/${
-  //       document.address.line1
-  //     }-${document.id.toString()}`;
+  return document.slug
+    ? document.slug
+    : `${document.locale}/${document.address.region}/${document.address.city}/${
+        document.address.line1
+      }-${document.id.toString()}`;
 };
 
 /**
