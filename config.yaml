@@ -1,4 +1,4 @@
-buildConfiguration:
+buildConfigurationXXXX:
   buildCommand: npm run build
   installDependenciesStep:
     command: npm install
