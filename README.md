@@ -1,5 +1,7 @@
 # SITE-STARTER-REACT-BASIC
 
+Hi
+
 This repository provides a basic example of how to start developing a React site on the Yext Pages system.
 
 Follow this Track on Hitchhikers to build a full website with Search, Directories, Analytics and more based off of this starter repo: https://hitchhikers.yext.com/tracks/pages-development/
