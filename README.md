@@ -1,6 +1,6 @@
 # SITE-STARTER-REACT-BASIC
 
-Hello world
+Hello world 2
 
 This repository provides a basic example of how to start developing a React site on the Yext Pages system.
 
