@@ -171,6 +171,7 @@ const Location: Template<TemplateRenderProps> = ({
 
   const [helloWorldResponse, setHelloWorldResponse] = React.useState("");
   const [helloUniverseResponse, setHelloUniverseResponse] = React.useState("");
+  const [helloMoonResponse, setHelloMoonResponse] = React.useState("");
   
   React.useEffect(() => {
     const fetchHelloWorld = async () => {
@@ -190,6 +191,16 @@ const Location: Template<TemplateRenderProps> = ({
     };
 
     fetchHelloUniverse();
+  }, [relativePrefixToRoot]);
+
+    React.useEffect(() => {
+    const fetchHelloMoon = async () => {
+      const res = await fetch(`${relativePrefixToRoot}helloMoon`);
+      const text = await res.text();
+      setHelloMoonResponse(text);
+    };
+
+    fetchHelloMoon();
   }, [relativePrefixToRoot]);
   
   return (
@@ -211,6 +222,9 @@ const Location: Template<TemplateRenderProps> = ({
         )}
         {helloUniverseResponse && (
         <div>From the serverless function 2: {helloUniverseResponse}</div>
+        )}
+        {helloMoonResponse && (
+        <div>From the serverless function 3: {helloMoonResponse}</div>
         )}
       </PageLayout>
     </>
