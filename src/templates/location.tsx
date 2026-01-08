@@ -169,6 +169,18 @@ const Location: Template<TemplateRenderProps> = ({
     siteDomain,
   } = document;
 
+  const [helloWorldResponse, setHelloWorldResponse] = React.useState("");
+
+  React.useEffect(() => {
+    const fetchHelloWorld = async () => {
+      const res = await fetch(`${relativePrefixToRoot}helloWorld`);
+      const text = await res.text();
+      setHelloWorldResponse(text);
+    };
+
+    fetchHelloWorld();
+  }, [relativePrefixToRoot]);
+  
   return (
     <>
       <PageLayout>
@@ -183,6 +195,9 @@ const Location: Template<TemplateRenderProps> = ({
             {description && <About name={name} description={description} />}
           </div>
         </div>
+        {helloWorldResponse && (
+        <div>From the serverless function: {helloWorldResponse}</div>
+        )}
       </PageLayout>
     </>
   );
