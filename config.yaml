@@ -7,4 +7,5 @@ buildConfiguration:
       - package-lock.json
       - .npmrc
 livePreviewConfiguration:
-  setupCommand: npm run dev -- --no-prod-url --local
+  setupCommand: "npm install -g serve@13.0.4"
+  serveCommand: "npx serve src -p 8080"
